@@ -3,107 +3,140 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV — Otto Luna Málaga</title>
+  <title>CV — Otto Luna</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      background: #f6f7fb;
+      margin: 0;
+      color: #222;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 32px auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 15px 35px rgba(0,0,0,.06);
+      padding: 32px;
+    }
+
+    h1 { margin: 0; }
+    h2 { margin-top: 28px; }
+    h3 { margin-bottom: 4px; }
+
+    .header { border-bottom: 1px solid #e7e7e7; padding-bottom: 14px; }
+    .info p { margin: 4px 0; color:#555; }
+
+    .job { margin-bottom: 16px; }
+    .muted { color:#777; }
+
+    ul { margin-top: 8px; }
+    li { margin-bottom: 6px; }
+
+    .tagline { margin-top: 10px; color:#2f4a92; font-weight:600; }
+  </style>
 </head>
 
 <body>
+  <div class="container">
 
-  <header class="hero">
-    <h1>OTTO LUNA MÁLAGA</h1>
-    <p>Ingeniero Electrónico — Telecomunicaciones | Redes 2G / 3G / 4G / 5G</p>
-  </header>
+    <div class="header">
+      <h1>Otto Luna Málaga</h1>
 
-  <section class="contact">
-    <p><strong>Dirección:</strong> Los Cedros 315, La Molina Vieja, La Molina</p>
-    <p><strong>Tel:</strong> +51 919 753 310</p>
-    <p><strong>Email:</strong> ottoluna@gmail.com</p>
-  </section>
+      <div class="info">
+        <p>La Molina, Lima — Perú</p>
+        <p>Tel: +51 919 753 310</p>
+        <p>Email: ottoluna@gmail.com</p>
+      </div>
 
-  <section>
+      <div class="tagline">
+        Telecomunicaciones · Redes móviles · KPIs · Automatización · Python · Power BI · SQL
+      </div>
+    </div>
+
+    <!-- PERFIL -->
     <h2>Perfil Profesional</h2>
-    <p>
-      Ingeniero Electrónico especializado en telecomunicaciones con amplia experiencia en
-      ingeniería, soporte y desarrollo de proyectos. Proactivo, analítico, orientado a la mejora
-      continua y al trabajo en equipo. Experto detectando ineficiencias y oportunidades de mejora.
-      Buen manejo del inglés y excelente dominio de herramientas informáticas.
-    </p>
-  </section>
 
-  <section>
+    <p>
+      Ingeniero Electrónico especializado en telecomunicaciones, con sólida experiencia en operación,
+      soporte e implementación de redes móviles 2G, 3G, 4G y 5G.
+    </p>
+
+    <p>
+      En los últimos años me he enfocado en el análisis avanzado de KPIs, automatización de reportes y
+      monitoreo proactivo de red, utilizando Python, Power BI y SQL para acelerar la detección de fallas,
+      optimizar el análisis post-upgrade y evaluar el impacto de cambios en la red.
+    </p>
+
+    <p>
+      Profesional analítico, orientado a resultados y mejora continua, con capacidad para trabajar en
+      equipos multidisciplinarios y entornos de alta demanda.
+    </p>
+
+    <!-- EXPERIENCIA -->
     <h2>Experiencia Laboral</h2>
 
-    <article>
-      <h3>Huawei del Perú SAC — Wireless Engineer (2008 — Actualidad)</h3>
+    <div class="job">
+      <h3>Wireless Engineer — Huawei del Perú</h3>
+      <div class="muted">2008 — Actualidad</div>
       <ul>
-        <li>Diagnóstico y resolución de problemas en redes 2G, 3G y 4G (Entel, Claro).</li>
-        <li>Análisis de KPIs de accesibilidad, congestión y performance.</li>
-        <li>Análisis de PCHR y trazas para solución de fallas.</li>
-        <li>Implementaciones: rehoming, integración de RNC, BSC y NodeB.</li>
-        <li>Automatización de scripts y macros para reducir tiempos operativos.</li>
-        <li>Soporte internacional (Chile) para aceptación de RNCs e integración de nodos.</li>
+        <li>Soporte y optimización de redes móviles 2G/3G/4G para múltiples operadores.</li>
+        <li>Análisis de KPIs para detección de congestión, accesibilidad y performance.</li>
+        <li>Automatización de procesos y generación de reportes técnicos.</li>
+        <li>Implementaciones: rehoming, integración de RNC/BSC y nodos de radio.</li>
+        <li>Soporte internacional en proyectos y actividades de aceptación de red.</li>
       </ul>
-    </article>
+    </div>
 
-    <article>
-      <h3>GMC Engineering Solutions SAC — Consultoría Telecom (2003)</h3>
+    <div class="job">
+      <h3>Consultor — GMC Engineering Solutions</h3>
+      <div class="muted">2003</div>
       <ul>
-        <li>Elaboración de propuestas técnicas.</li>
+        <li>Elaboración de propuestas técnicas en telecomunicaciones.</li>
         <li>Implementación de BSCs CDMA en Brasil, México, Honduras y República Dominicana.</li>
       </ul>
-    </article>
+    </div>
 
-    <article>
-      <h3>Motorola del Perú — Ingeniero (1997 — 2001)</h3>
-
-      <p><strong>Ingeniero de Implantación y Planificación (1999–2001)</strong></p>
+    <div class="job">
+      <h3>Motorola del Perú — Ingeniería y Operaciones</h3>
+      <div class="muted">1997 — 2001</div>
       <ul>
-        <li>Supervisión de proyectos de ampliación de centrales celulares.</li>
-        <li>Actualización de software 2G → 2.5G en múltiples centrales.</li>
-        <li>Automatización de estadísticas de tráfico mediante macros.</li>
-        <li>Carga de software en el 90% de las centrales de Telefónica.</li>
+        <li>Planificación, instalación y ampliación de centrales celulares.</li>
+        <li>Automatización de tareas operativas y monitoreo de red.</li>
+        <li>Actualización de software 2G → 2.5G en múltiples redes.</li>
+        <li>Reconocimientos por contribución a la estabilidad del sistema celular.</li>
       </ul>
+    </div>
 
-      <p><strong>Ingeniero de Operaciones (1997–1999)</strong></p>
-      <ul>
-        <li>Monitoreo del sistema celular en Lima.</li>
-        <li>Automatización de tareas mediante scripts en UNIX.</li>
-        <li>Diseño de procedimientos operativos y estabilización del sistema.</li>
-      </ul>
-    </article>
-
-    <article>
-      <h3>Alpha Consult SA — Soporte Técnico (1996)</h3>
-      <ul>
-        <li>Soporte en el área de cómputo y TI.</li>
-      </ul>
-    </article>
-  </section>
-
-  <section>
+    <!-- EDUCACION -->
     <h2>Educación</h2>
-    <p><strong>Pontificia Universidad Católica del Perú</strong><br>
-       Ingeniero Electrónico (1988 — 1996)</p>
-  </section>
 
-  <section>
-    <h2>Cursos y Formación</h2>
+    <p>
+      <strong>Pontificia Universidad Católica del Perú</strong><br />
+      Ingeniero Electrónico
+    </p>
+
+    <!-- CURSOS -->
+    <h2>Cursos y Capacitación</h2>
+
     <ul>
       <li>Python para Ciencia de Datos — Sistemas UNI (2020)</li>
       <li>SQL Server Fundamentals — DMC Perú (2022)</li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>Si deseas contactarme para proyectos, consultorías o oportunidades:</p>
-    <a class="btn" href="mailto:ottoluna@gmail.com">Escríbeme</a>
-  </section>
+    <!-- ENGLISH -->
+    <h2>English Summary</h2>
 
-  <footer>
-    © 2026 — Otto Luna Málaga
-  </footer>
+    <p>
+      Electronics Engineer specialized in telecommunications, with strong experience in operation, support
+      and implementation of mobile networks (2G/3G/4G/5G). Focused on KPI analysis, automation and proactive
+      network monitoring using Python, Power BI and SQL to support faster, data-driven decisions.
+    </p>
 
+  </div>
 </body>
 </html>
